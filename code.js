@@ -104,4 +104,9 @@ function alternarColorTema() {
 }
 
 /* --------------------- PUNTO 5: Escribe tu codigo aqui --------------------- */
-
+let pSobreMi = document.getElementById("sobre-mi");
+document.addEventListener("keydown", (e) => {
+  if(e.key == "f") {
+    pSobreMi.classList.remove("oculto");
+  }
+})
